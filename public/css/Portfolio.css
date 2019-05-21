@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    z-index: 100;
+    background: #e85a4f;
+    color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.name {
+    margin-top: 100px;
+    margin-left: 32px;
+}
+
+.links {
+    margin-top: 100px;
+    margin-left: 32px;
+}
+.link {
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+.pagecontent {
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+.loginarea {
+    position: absolute;
+    bottom: 3vh;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    height: 3vw;
+}
+
+.logintext {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    float: left;
+    margin-right: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.profilepic {
+    width: 3vw;
+    height: 3vw;
+    background: #8e8d8a;
+    border-radius: 100%;
+    float: left;
+    display: none;
+}
+
+.headline {
+    font-size: 64px;
+}
+
+.underheadline {
+    color: #e85a4f; 
+    display: inline;
+}
+
+.filler2 {
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.signin {
+    width: 50%;
+    float: left;
+}
+.signup {
+    width: 50%;
+    float: left;
+}
+
+.signin input {
+    margin-bottom: 1.3vh;
+}
+.signup input {
+    margin-bottom: 1.3vh;
+}
+
+.textform1 {
+    width: 80%;
+    height: 4vh;
+}
+
+.submit {
+    margin-top: 1.3vh;
+}
+
+hr {
+    background: #e85a4f;
+    border: 1px solid #e85a4f;
+    margin-top: 1vh;
+}
+
+.designers {
+    margin-top: 35px;
+}
+
+.designers img {
+    border-radius: 100%;
+    margin-left: 50%;
+    transform: translate(-50%,0)
+}
+
+.designer1 {
+    float: left;
+    width: 192px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.designers .Dname {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.designers .Dwork {
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 4px;
+}
