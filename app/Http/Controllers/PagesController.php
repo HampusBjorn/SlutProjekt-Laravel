@@ -19,8 +19,25 @@ class PagesController extends Controller
 
     public function login()
     {
-        return view('login');
+
+        $account = \App\User::all();
+
+        return view('login', compact('account'));
     }
+
+    public function store()
+    {
+        $account = new \App\User();
+        $account->firstname = request('firstname');
+        $account->lastname = request('lastname');
+        $account->email = request('email');
+        $account->Password = request('Password');
+        $account->accounttype = request('accounttype');
+        $account->save();
+
+        return redirect('/login');
+    }
+
 
     public function designers()
     {

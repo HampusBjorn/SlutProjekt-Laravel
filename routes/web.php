@@ -20,5 +20,7 @@ Route::get('/home', 'PagesController@home');
 //route till login sidan
 Route::get('/login', 'PagesController@login');
 
+Route::post('/login', 'PagesController@store');
+
 //route till designer sidan (där man kan hitta designers)
 Route::get('/designers', 'PagesController@designers');
